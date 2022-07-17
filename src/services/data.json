@@ -1,0 +1,81 @@
+{
+  "heading": "test form",
+  "fields": [
+    {
+      "type": "text",
+      "value": "Test text field",
+      "label": "text",
+      "name": "text",
+      "helperText": "Enter text here",
+      "required": true
+    },
+    {
+      "type": "textarea",
+      "value": "Test text field",
+      "label": "textarea",
+      "name": "textarea",
+      "helperText": "Enter text here",
+      "disabled": true
+    },
+    {
+      "type": "radio",
+      "entries": [
+        {
+          "label": "radio1",
+          "value": "radio1"
+        },
+        {
+          "label": "radio2",
+          "value": "radio2"
+        }
+      ],
+      "label": "radio",
+      "value": "radio2",
+      "name": "radio"
+    },
+    {
+      "type": "checkbox",
+      "value": true,
+      "entries": [
+        {
+          "label": "checkbox1",
+          "value": "checkbox1",
+          "name": "checkbox1"
+        },
+        {
+          "label": "checkbox2",
+          "value": "checkbox2",
+          "name": "checkbox1"
+        }
+      ],
+      "label": "checkbox",
+      "name": "checkbox"
+    },
+    {
+      "type": "number",
+      "value": 10,
+      "minValue": 0,
+      "maxValue": 100,
+      "label": "number",
+      "name": "number",
+      "helperText": "Enter text here"
+    },
+    {
+      "type": "date",
+      "value": "Sun, 17 Jul 2022 14:48:43 GMT",
+      "label": "date",
+      "name": "date",
+      "helperText": "Enter text here"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "Submit",
+      "action": "submit"
+    },
+    {
+      "label": "Reset",
+      "action": "reset"
+    }
+  ]
+}
