@@ -33,8 +33,8 @@ export const Container = ({ children }: PropsWithChildren<{}>) => {
               tabIndex={0}
               className={clsx(
                 "capitalize text-base border-0 border-b-2 p-2 outline-0 border-transparent",
-                "hover:border-primary-variant hover:text-primary-variant",
-                "focus:border-primary-variant focus:text-primary-variant",
+                "hover:border-primary hover:text-primary",
+                "focus:border-primary focus:text-primary",
                 {
                   "text-primary border-b-primary": active === label,
                   "text-v-gray border-b-transparent": active !== label,

@@ -12,7 +12,9 @@ export const Radio = ({
   helperText,
 }: FormRadio & FormError) => (
   <fieldset>
-    <legend className={topDisabled ? "label-disabled" : "label-primary"}>
+    <legend
+      className={topDisabled ? "label-disabled" : "text-gray-700 capitalize"}
+    >
       {topLabel}
     </legend>
     <div className="mt-2 flex flex-col gap-2">
