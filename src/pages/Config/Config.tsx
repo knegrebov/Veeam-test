@@ -7,7 +7,8 @@ export const Config = ({
 }: {
   onData: (data: FormConfig | null) => void;
 }) => {
-  const [handler, data, error] = useValidateJSON();
+  const dataStr = JSON.stringify(testData);
+  const [handler, data, error] = useValidateJSON(dataStr);
 
   return (
     <form
@@ -22,7 +23,7 @@ export const Config = ({
         <span className="label-primary">Enter form config</span>
         <textarea
           rows={10}
-          defaultValue={JSON.stringify(testData)}
+          defaultValue={dataStr}
           name="configData"
           onBlur={handler}
           className="shadow-sm focus:border-primary mt-1 block w-full sm:text-sm border border-v-gray-light rounded-md focus:ring-0"
