@@ -1,5 +1,5 @@
 import { FocusEvent, useState } from "react";
-import { FormConfig } from "../../../components";
+import { FormConfig } from "components";
 
 export const useValidateJSON = (
   testData?: string

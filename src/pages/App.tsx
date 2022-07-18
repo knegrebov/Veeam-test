@@ -1,4 +1,4 @@
-import { FormConfig, Tabs } from "../components";
+import { FormConfig, Tabs } from "components";
 import { Config } from "./Config";
 import { Results } from "./Results";
 import { useState } from "react";

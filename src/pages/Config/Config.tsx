@@ -1,6 +1,6 @@
 import { useValidateJSON } from "./util/useValidateJSON";
-import { Button, FormConfig } from "../../components";
-import testData from "../../services/data.json";
+import { Button, FormConfig } from "components";
+import testData from "services/data.json";
 
 export const Config = ({
   onData,

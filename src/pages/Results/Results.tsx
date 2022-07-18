@@ -1,4 +1,4 @@
-import { Form, FormConfig } from "../../components";
+import { Form, FormConfig } from "components";
 
 export const Results = ({ config }: { config: FormConfig | null }) => {
   if (!config) return <div className="my-2">Config not found</div>;
