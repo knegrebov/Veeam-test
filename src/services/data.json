@@ -3,52 +3,51 @@
   "fields": [
     {
       "type": "text",
-      "value": "Test text field",
-      "label": "text",
+      "placeholder": "Enter text here",
+      "label": "Simple required text field",
       "name": "text",
       "helperText": "Enter text here",
       "required": true
     },
     {
       "type": "textarea",
-      "value": "Test text field",
-      "label": "textarea",
+      "value": "This field is disabled",
+      "label": "Textarea example",
       "name": "textarea",
-      "helperText": "Enter text here",
+      "helperText": "This field should be disabled",
       "disabled": true
     },
     {
       "type": "radio",
       "entries": [
         {
-          "label": "radio1",
+          "label": "Options one",
           "value": "radio1"
         },
         {
-          "label": "radio2",
+          "label": "Options two",
           "value": "radio2"
         }
       ],
-      "label": "radio",
+      "label": "Example radio field",
       "value": "radio2",
       "name": "radio"
     },
     {
       "type": "checkbox",
-      "value": true,
       "entries": [
         {
           "label": "checkbox1",
-          "value": "checkbox1",
+          "value": true,
           "name": "checkbox1"
         },
         {
           "label": "checkbox2",
-          "value": "checkbox2",
+          "value": false,
           "name": "checkbox1"
         }
       ],
-      "label": "checkbox",
+      "label": "Example checkbox",
       "name": "checkbox"
     },
     {
@@ -56,16 +55,16 @@
       "value": 10,
       "minValue": 0,
       "maxValue": 100,
-      "label": "number",
+      "label": "Example number field",
       "name": "number",
-      "helperText": "Enter text here"
+      "helperText": "Helper text here"
     },
     {
       "type": "date",
       "value": "Sun, 17 Jul 2022 14:48:43 GMT",
-      "label": "date",
+      "label": "Date field example",
       "name": "date",
-      "helperText": "Enter text here"
+      "helperText": "Helper text"
     }
   ],
   "ctas": [

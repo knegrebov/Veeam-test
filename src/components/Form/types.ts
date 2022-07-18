@@ -46,6 +46,7 @@ export class FormRadio extends FormCommon {
       if (!e.value) throw new Error("Radio entry requires value");
     });
     this.entries = params.entries;
+    this.value = params.value;
   }
 
   get component() {
